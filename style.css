@@ -1,0 +1,63 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+	font-family: Copperplate;
+	font-size: 42px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 31.68px;
+}
+
+h2 {
+  color:lightslategray;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+
+.fullBoard {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.results {
+  display: inline-block;
+  box-sizing: border-box;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  margin-left: 225px;
+  width: 100px;
+  height: 60px;
+}
+
+.square:hover {
+  background-color:lightgreen;
+}
+
+.square {
+  font-family: arial;
+  font-size: 90px;
+  display:inline-block;
+  box-sizing:border-box;
+  border: 5px solid #1A54BE;
+  background-color:#00BCD4;
+  padding: 18px;
+  width:150px;
+  height:150px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.button {
+  margin-top: .5em;
+  text-align: center;
+
+}

@@ -1,8 +1,12 @@
 # Project 0
-## by Jae Byun
+# Tic Tac Toe
+## *by Jae Byun*
 
-### boom
+### Just a simple game of TicTacToe.
 
-_italics_ __bold__
-*italics* **bold**
-***bold italics***
+#### How it Works
+
+* Places a X marker or O marker on the board.
+* Takes alternating turns until a the board is filled or a winner has been decided.
+* Appends the score onto a table.
+* If game is finished, click the new game button to start another game.   
